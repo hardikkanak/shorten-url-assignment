@@ -15,21 +15,21 @@ DATABASES = {
     }
 }
 
-3. Run bellow command to create migration file
+3. Run bellow command to create migration file :
 python manage.py makemigrations
 
-4. Run bellow command to apply change in database (Create Table generated_url)
+4. Run bellow command to apply change in database (Create Table generated_url) :
 python manage.py migrate
 
-5. Run project 
+5. Run project :
 python manage.py runserver
 
 Note : Project run on http://127.0.0.1:8000/
 
 ------------------------------------------------------------------------
 Set Up frontend (ReactJS)
-1. Run bellow command to install basic library
+1. Run bellow command to install basic library : 
 npm install
 
-2. Run bellow command to start project
+2. Run bellow command to start project : 
 npm start
